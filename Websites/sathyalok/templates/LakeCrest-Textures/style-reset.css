@@ -1,0 +1,93 @@
+/*
+
+	Copyright (c) 2008-2008, Element Fusion, LLC. All rights reserved.
+	-------------------------------------------------------------
+	LICENSED FOR USE UNDER A CREATIVE LICENSE AGREEMENT
+	-------------------------------------------------------------
+	This document, and all creative material associated herein, is protected under copyright law 
+	to be used exclusively with	the Content Management Systems of Element Fusion, LLC.
+	-------------------------------------------------------------
+	You can read the full creative license agreement at: http://www.elementfusion.com/license
+	-------------------------------------------------------------
+	Version 1.0 - June 23, 2008
+	Version 1.1 - Modified, October 1, 2008
+	Version 1.2 - Modified, March 25, 2009
+
+	/////////////////////////////////////////////////////////////
+	
+	RESET STYLES
+	This is attempting to level the browser playing field, clearing 
+	the slate if you will.
+	
+	> For more informaion on CSS, 
+	  http://accountsupport.elementfusion.com/css-help
+	
+*/
+
+
+
+
+html, body, div, span, applet, object, iframe,
+p, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul, form, label,
+h1, h2, h3, h4, h5, h6, hr {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	text-decoration: none;
+	font-size: 100%;
+	font-family: inherit;
+}
+	body { 
+		line-height: 1.5em;	
+		color: black;
+		background: white;
+	}
+	:focus {
+		outline: 0;
+	}	
+	a img {
+		border: 0;
+	}
+
+
+
+/* tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	caption, th, td {
+		text-align: left;
+	}
+
+
+
+/* lists */
+ol, ul {
+	list-style: none;
+}
+
+
+
+/* clearing */
+.clear {
+	clear: both;
+	height: 1px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* hide/show */
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+

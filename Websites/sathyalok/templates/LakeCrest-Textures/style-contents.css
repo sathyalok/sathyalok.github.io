@@ -1,0 +1,449 @@
+
+
+/* <textEditor> */ 
+
+	.buttonBrown {background: url(template/button-bg.jpg) no-repeat; width: 174px; height: 27px; color: #e1dcd4; font-family: arial; text-transform: uppercase; padding: 9px 0 0 10px; font-size: .8em; margin: 20px 0;}
+
+	.colorLight, .colorLight a {color: #d7d4be;}
+	.colorOrange, .colorOrange a {color: #988160;}	
+	
+	.textBlack, .textBlack a {color: #111;}
+	.textWhite, .textWhite a {color: #fff;}
+	.textGrey, .textGrey a {color: #adaeae;}		
+
+	.fontGeorgia {font-family: georgia, serif;}
+	.fontTimes {font-family: "times new roman", times, serif;}	
+	.fontVerdana {font-family: verdana, sans-serif;}
+	.fontArial {font-family: arial, sans-serif;}
+	.fontTahoma {font-family: tahoma, sans-serif;}	
+	.fontHelvetica {font-family: Helvetica, arial, sans-serif;}					
+		
+	.fontSize10 {font-size: 10px;}
+	.fontSize11 {font-size: 11px;}
+	.fontSize12 {font-size: 12px;}
+	.fontSize13 {font-size: 13px;}
+	.fontSize14 {font-size: 14px;}
+	.fontSize15 {font-size: 15px;}
+	.fontSize16 {font-size: 16px;}
+	.fontSize17 {font-size: 17px;}
+	.fontSize18 {font-size: 18px;}
+	.fontSize19 {font-size: 19px;}
+	.fontSize20 {font-size: 20px;}
+	.fontSize21 {font-size: 21px;}
+	.fontSize22 {font-size: 22px;}
+	.fontSize23 {font-size: 23px;}
+	.fontSize24 {font-size: 24px;}
+	.fontSize25 {font-size: 25px;}
+	.fontSize26 {font-size: 26px;}
+	.fontSize27 {font-size: 27px;}
+	.fontSize28 {font-size: 28px;}
+	.fontSize29 {font-size: 29px;}
+	.fontSize30 {font-size: 30px;}	
+	
+	.left, .alignLeft {float: left; margin-right: 1em;}
+	.right, .alignRight {float: right; margin-left: 1em;}	
+	
+	.noborder {border: none !important;}
+	span.imageBorder img {border: 1px solid #2e2e2e;}
+	
+/* </textEditor> */ 
+
+
+
+
+/* GENERAL, SITEWIDE CONTENT CALLINGS */
+
+/* links */
+a {
+	color: #9b6c44;
+	text-decoration: underline;
+}
+	a:hover {
+		color: #701F11;
+	}	
+	
+	.buttonBrown a {
+		color: #e1dcd4;
+		width: 174px;
+		height: 28px;
+		display: block;
+		text-decoration: none;
+	}
+
+
+
+/* setting the OL/UL to specified values in the content areas */
+.contents ol {
+	list-style: decimal;
+	margin: 15px 35px;
+}
+	.contents ol li {
+		padding: 0 0 5px 0;
+	}	
+		
+.contents ul {
+	list-style: disc;
+	margin: 15px 35px;
+}
+	.contents ul li {
+		padding: 0 0 5px 0;
+	}
+	
+	/*  for blog/calendar list items to still have list bullets */	
+	.blogList ul li ul, .eventsList ul li ul {margin: 15px 35px !important;}
+	     .blogList ul li li, .blogList ul li ul, .eventsList ul li li, .eventsList ul li ul {list-style: disc !important;}
+	.blogList ol li ul, .eventsList ol li ul {margin: 15px 35px !important;}
+	     .blogList ol li li, .blogList ol li ul, .eventsList ol li li, .eventsList ol li ul {list-style: decimal !important;}
+
+
+
+/* want the paragraphs to have a nice even margin */
+.contents p {
+	margin: 0 0 15px 0;
+}
+
+
+
+/* want good looking horizontal rules */
+hr {
+	border: 1px solid #F5F1DA;
+	border-width: 1px 0 0 0;
+	border-collapse: collapse;
+	clear: both;
+	margin: 10px 0;
+}
+
+
+
+#homePage #extraColumn strong {
+	color: #c3c2ba;
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
+/* GENERAL SITE HEADINGS */	
+h1 {
+	margin: 10px 0;
+	font-size: 1.8em;
+	color: #495635;
+	line-height: 1.2em;
+}	
+	#homePage #featuredItem h1.title {
+		color: #4e5437;
+		font-size: 1.8em;
+	}
+	#homePage #content h1.title {
+		color: #b9b6a3;
+		font-size: 1.5em;
+		background: url(template/home-column-h1title-bg.jpg) no-repeat;
+		padding: 8px 20px 8px 10px;
+	}
+	#secPage #mainColumn h1.title,
+	#adminPage #mainColumn h1.title {
+		margin: 0 0 10px 0;
+		font-size: 2.2em;
+		color: #8f3d22;
+		line-height: 1.2em;
+		letter-spacing: -1px;
+	}	
+	
+	
+h2 {
+	margin: 20px 0 10px 0;
+	font-size: 1.7em;
+	color: #495635;
+	line-height: 1.4em;
+}	
+
+h3 {
+	margin: 10px 0;
+	font-size: 1.5em;
+	color: #495635;
+	line-height: 1.2em;
+}		
+
+h4 {
+	margin: 10px 0;
+	font-size: 1.4em;
+	color: #495635;
+	line-height: 1.2em;
+}	
+
+h5 {
+	margin: 10px 0;
+	font-size: 1.3em;
+	color: #495635;
+	line-height: 1.2em;
+}	
+	h1, h2, h3, h4, h5 {
+		font-family: "Gentium", "Cambria", "Minion Pro", georgia, times, serif;
+		font-weight: normal;
+	}
+
+
+	
+	
+	
+	
+	
+/* ELEMENT SPECIFIC CALLINGS */
+	
+/* BLOG ITEM */	
+	/* blog listing page */		
+	.blogList {
+		padding: 0;		
+	}
+		.blogList ul {
+			margin: 0 !important;
+			padding: 0 !important;
+			list-style: none;
+		}
+			.blogList ul li {
+				list-style: none;
+				padding-bottom: 15px;
+			}
+			
+			.blogList ul li h2.postTitle {
+				font-size: 1.4em;
+				line-height: 1;
+				font-weight: normal;
+				margin: 0 0 3px 0;
+			}
+				.blogList ul li h2.postTitle a {
+					line-height: 1.2;
+				}
+				
+			.blogList ul li  .postDate {
+				margin: 0 0 5px 0;
+				font-size: .9em;
+				font-style: italic;
+			}
+			
+			.blogList ul li .postInfo a {
+				color: #847a6c !important;				
+			}
+				
+				
+			/* rss icon */
+			.rss img {border: none}
+				
+				
+				
+	/* post detail page */
+	#secPage .post .postDate {
+		margin: 0 0 15px 0;
+		font-size: .9em;
+		font-style: italic;
+	}
+		#secPage .post .blogBack {
+			margin: 10px 0;
+			font-weight: bold;
+		}
+	
+	
+	
+	/* blog comments */
+	.comments {
+		padding-top: 10px;
+	}
+		.comments dl {
+			background: #DAD8C3 !important;
+			
+		}	
+			dt.comment {
+				background: #DAD8C3 !important;
+				clear: both;
+				margin: 0 0 5px 0;
+				padding: 0;
+			}			
+				dt.comment a {
+					font-weight: bold;
+				}			
+			
+			dd.comment {			
+				background: #DAD8C3 !important;
+				padding: 8px;
+				margin-bottom: 15px;
+			}
+			
+				/* alternate colors, for the even posts */
+				dd.comment.alternate {
+					background: #DAD8C3 !important;
+				}
+			
+			.commentDate {		
+				font-size: .9em;
+				font-style: italic;
+			}
+		
+		
+		
+	/* comments form */
+	.commentsForm {
+		clear: both;
+		padding-top: 15px;
+		width: 80%;
+	}
+		.commentsForm .addComment {
+			font-size: 1.5em;
+		}
+		
+		.commentsForm label {
+			font-weight: bold;
+		}
+		
+		.commentsForm input, .commentsForm textarea {
+			padding: 2px 4px;
+			font-family: arial;
+			font-size: 1em;
+		}
+		
+		.commentsForm img { /* this is for the captcha image */
+			 margin: 5px 0;
+			 border: 1px solid #6E5B3D;
+		}
+		
+		.commentsForm input.submitComment {
+			 margin: 10px 0;
+			 background: #6E5B3D;
+			 border: 1px solid #F0E8D1;
+			 padding: 5px 3px;
+			 width: 200px;
+			 color: #fff;
+			 font-weight: bold;
+		}
+		
+		.commentsForm .note {
+			font-size: .9em;
+			color: #90887b;
+			font-style: italic;
+		}
+
+	
+	
+	
+	
+
+
+/* GRAPHIC TABULAR EVENTS CALENDAR */
+	.eventsCalendar table { /* entire table */
+		border: 1px solid #585043;
+		width: 100%;
+		border-collapse: collapse;
+	}		
+		.calendarDay, .calendarToday, .calendarDayHeader, .calendarTitle td, .calendarWeekendDay, .calendarOtherMonthDay   {
+			padding: 2px;
+			border: 1px solid #585043;
+			text-align: left;
+			vertical-align: top;
+		}
+		
+		.calendarTitle td { /* top bar with current month and next/previous buttons */
+			text-align: center;
+			background: #90887b url(http://www.sathyalokcharitabletrust.org/Websites/sathyalok/templates/LakeCrest-Textures/template/submit-button-bg.jpg) 0 0 repeat-x !important;
+			color: #FFF;
+			padding: 5px 4px !important;	
+			text-transform: uppercase !important;
+			font-weight: normal !important;
+			font-weight: bold !important;	
+		}	
+			.calendarNextPrevious {
+				color: #fff !important;
+				font-weight: normal;
+				font-size: .9em;
+			}	
+				.calendarNextPrevious a {
+					color: #fff !important;
+					font-weight: normal;
+				}	
+				
+		.calendarDayHeader { /* m-f bar */
+			color: #333;
+			background: #D7C8B1;
+			font-weight: normal;
+			height: 1px;
+			text-align: center;
+			padding: 4px 2px;
+			text-transform: uppercase !important;
+			font-size: .9em;
+		}	
+			
+		.calendarToday, .calendarToday a { /* current day */
+			color: #333 !important;
+			background: #72634C;
+			font-weight: bold;
+		}	
+		.calendarWeekendDay { /* weekends */
+			background: #e0dedb;
+			color: #333 !important;
+		}	
+		.calendarDay { 
+			background: #e0dedb;
+			color: #333 !important;
+		}	
+			.calendarDay a { 
+				font-weight: bold;
+				color: #333 !important;
+			}		
+		.calendarOtherMonthDay { /* previous or next months days on current months calendar */
+			color: #333;
+			background: #efefef;
+		}
+				
+				
+				
+	.eventsList {
+		padding: 0;		
+	}
+		.eventsList ul {
+			margin: 0 !important;
+			padding: 0 !important;
+			list-style: none;
+		}
+			.eventsList ul li {
+				list-style: none;
+				padding: 5px 0;
+				margin-bottom: 5px;
+			}
+				#homePage .eventsList ul li {
+					border-bottom: 1px dotted #aaa78f;
+				}
+			
+			.eventsList ul li a {
+				font-size: 1.2em;
+				line-height: 1;
+				text-decoration: none;
+			}
+				#homePage .eventsList ul li a {
+					color: #d8d4be !important;					
+				}
+				
+			.eventsList ul li .eventDate {
+				margin: 0 0 5px 0;
+				font-size: .9em;
+			}		
+				
+				
+	/* calendar detail page */
+		#secPage .event .eventDate {
+			margin: 0 0 15px 0;
+			font-size: .9em;
+		}
+		#secPage .event .eventBack {
+			margin: 10px 0;
+			font-weight: bold;
+		}
+	
+	
+	
+
+/* ICEBRRG */
+	.fieldSelected { /* background color of a selected field. */
+		background: transparent !important;
+		border-color: #fff !important;
+	}
