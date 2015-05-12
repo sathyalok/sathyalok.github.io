@@ -14,8 +14,14 @@ function sendMail(){
           }
         ],
         'subject': 'Message from Sathyalok website contact form',
-        'html': '<Insert form field data here as html or text>'
+        'html': 'Insert form field data here as html or text'
       }
     }
   });
+}
+
+function checkEmpty(field){
+  if(field.value === '') {
+    alert("This is a required field");
+  }
 }
