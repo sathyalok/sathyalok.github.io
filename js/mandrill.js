@@ -5,16 +5,16 @@ function sendMail(){
     data: {
       'key': 'HVEljfPIZEcJcJFosN2k4g',
       'message': {
-        'from_email': 'YOUR_SENDER@example.com',
+        'from_email': 'sathyalok_site@do_not_reply.com',
         'to': [
           {
             'email': 'changingrainbows@gmail.com',
-            'name': 'From Sathyalok',
+            'name': 'Sathyalok Site Administrator',
             'type': 'to'
           }
         ],
-        'subject': 'title',
-        'html': 'html can be used'
+        'subject': 'Message from Sathyalok website contact form',
+        'html': '<Insert form field data here as html or text>'
       }
     }
   });
