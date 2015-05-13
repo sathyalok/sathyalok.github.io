@@ -21,7 +21,7 @@ function sendMail(){
         'from_name': 'Sathyalok Website',
         'to': [
           {
-            'email': 'changingrainbows@gmail.com',
+            'email': 'sathyaloktrustin@yahoo.co.in',
             'name': 'Sathyalok Site Administrator',
             'type': 'to'
           }
