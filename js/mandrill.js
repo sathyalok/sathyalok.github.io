@@ -31,6 +31,9 @@ function sendMail(){
       }
     }
   });
+
+  alert("Your message was successfully sent!");
+  $(location).attr('href','index.html');
 }
 
 function checkEmpty(field){
