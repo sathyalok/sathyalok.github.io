@@ -2,7 +2,7 @@
 
 /* <textEditor> */ 
 
-	.buttonBrown {background: url(template/button-bg.jpg) no-repeat; width: 174px; height: 27px; color: #e1dcd4; font-family: arial; text-transform: uppercase; padding: 9px 0 0 10px; font-size: .8em; margin: 20px 0;}
+	.buttonBrown {background: url(../img/template/button-bg.jpg) no-repeat; width: 174px; height: 27px; color: #e1dcd4; font-family: arial; text-transform: uppercase; padding: 9px 0 0 10px; font-size: .8em; margin: 20px 0;}
 
 	.colorLight, .colorLight a {color: #d7d4be;}
 	.colorOrange, .colorOrange a {color: #988160;}	
@@ -140,7 +140,7 @@ h1 {
 	#homePage #content h1.title {
 		color: #b9b6a3;
 		font-size: 1.5em;
-		background: url(template/home-column-h1title-bg.jpg) no-repeat;
+		background: url(../img/template/home-column-h1title-bg.jpg) no-repeat;
 		padding: 8px 20px 8px 10px;
 	}
 	#secPage #mainColumn h1.title,
@@ -345,7 +345,7 @@ h5 {
 		
 		.calendarTitle td { /* top bar with current month and next/previous buttons */
 			text-align: center;
-			background: #90887b url(http://www.sathyalokcharitabletrust.org/Websites/sathyalok/templates/LakeCrest-Textures/template/submit-button-bg.jpg) 0 0 repeat-x !important;
+			background: #90887b url(../img/template/submit-button-bg.jpg) 0 0 repeat-x !important;
 			color: #FFF;
 			padding: 5px 4px !important;	
 			text-transform: uppercase !important;

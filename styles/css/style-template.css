@@ -6,7 +6,7 @@ body {
     font-size: 75%;
 }
     #body {        
-        background: #A4A38E url(template/bg-tile.jpg) top center repeat-x;
+        background: #A4A38E url(../img/template/bg-tile.jpg) top center repeat-x;
     }
 
     html>body {
@@ -52,7 +52,7 @@ body {
     /* search */    
     .search {
         float: right;
-        background: url(template/search-bg.jpg) top center no-repeat;
+        background: url(../img/template/search-bg.jpg) top center no-repeat;
         width: 215px;
         height: 32px;
         padding: 10px 0 0 7px;
@@ -68,7 +68,7 @@ body {
         }    
         div.search .searchButton {
             border: none;
-            background: #516144 url(template/search-button-bg.jpg) top center no-repeat;
+            background: #516144 url(../img/template/search-button-bg.jpg) top center no-repeat;
             color: #fff;
             width: 53px;
             height: 24px;
@@ -88,7 +88,7 @@ body {
     top: 131px;
     width: 936px;
     height: 41px;
-    background: #62120B url(template/nav-bg.jpg) top left repeat-x;
+    background: #62120B url(../img/template/nav-bg.jpg) top left repeat-x;
     border: 1px solid #9d6c44;
 }
     #navigation .mainNav {
@@ -101,7 +101,7 @@ body {
         #navigation .mainNav li {
             float: left;
             text-align: center;
-            background: url(template/main-nav-break.jpg) 100% 12px no-repeat;
+            background: url(../img/template/main-nav-break.jpg) 100% 12px no-repeat;
         }    
             #navigation .mainNav li:last-child, #navigation .mainNav li.lastChild {
                 background: none;
@@ -117,11 +117,11 @@ body {
             
             #navigation .mainNav li a:hover, 
             #navigation .mainNav li a:focus {
-                background: url(template/navigation-submenu-bg-trans.gif) 50% 0 no-repeat;
+                background: url(../img/template/navigation-submenu-bg-trans.gif) 50% 0 no-repeat;
             }
             #secPage #navigation .mainNav li.selectedPage a, 
             #secPage #navigation .mainNav li.selectedPageRoot a {
-                background: url(template/navigation-submenu-arrow.jpg) 50% 0 no-repeat;
+                background: url(../img/template/navigation-submenu-arrow.jpg) 50% 0 no-repeat;
             }
             
             
@@ -189,11 +189,11 @@ body {
 /* CONTENT AREA */
 #contentContainer {    
     clear: both;
-    background: url(template/content-container-bg.jpg) top center repeat-y;
+    background: url(../img/template/content-container-bg.jpg) top center repeat-y;
     border: 1px solid #f5f1da;
 }
     #contentConainerDecoration {
-        background: url(template/bottom-nav-fade.jpg) 0 13px repeat-x;
+        background: url(../img/template/bottom-nav-fade.jpg) 0 13px repeat-x;
         min-height: 420px;
         height: auto !important;
         height: 420px;
@@ -217,7 +217,7 @@ body {
             min-height: 267px;
             height: auto !important;
             height: 267px;
-            background: url(template/home-featured-image-bg.jpg) no-repeat;
+            background: url(../img/template/home-featured-image-bg.jpg) no-repeat;
             margin: 0;
             padding: 25px 0 0 27px;
         }
@@ -285,7 +285,7 @@ body {
 
 /* homepage */
 #homePage #content {
-    background: #42423A url(template/home-columns-bg.jpg) top center no-repeat;
+    background: #42423A url(../img/template/home-columns-bg.jpg) top center no-repeat;
     position: relative;
     margin: 0 -20px -30px -20px;
     min-height: 190px;
@@ -302,7 +302,7 @@ body {
 }
     
 #homePage .threeColumn #mainColumn {
-    background: url(template/home-main-column-bg.jpg) top left repeat-x;
+    background: url(../img/template/home-main-column-bg.jpg) top left repeat-x;
     padding: 15px;
     color: #989684;
 }
@@ -312,7 +312,7 @@ body {
     
 /* secondary */
 #secPage #subColumn .textBox {
-    background: url(template/secpage-subcol-fade-bg.jpg) top left repeat-x;
+    background: url(../img/template/secpage-subcol-fade-bg.jpg) top left repeat-x;
     padding: 5px 10px;
     font-size: 1.1em;
     margin-bottom: 15px;
@@ -335,7 +335,7 @@ body {
     padding: 10px 0 30px 0;
 }    
     #homePage #footer {
-        background: url(template/home-footer-bg.jpg) top center no-repeat;
+        background: url(../img/template/home-footer-bg.jpg) top center no-repeat;
     }
     
     #footer a {
@@ -354,10 +354,10 @@ body {
             text-indent: -9999px;
         }
             #poweredBy #discoverSky a {
-                background: url(template/powered-by-sky-trans.png) no-repeat;
+                background: url(../img/template/powered-by-sky-trans.png) no-repeat;
             }
             #poweredBy #embraceWater a {
-                background: url(template/powered-by-water-trans.png) no-repeat;
+                background: url(../img/template/powered-by-water-trans.png) no-repeat;
             }
             
     
