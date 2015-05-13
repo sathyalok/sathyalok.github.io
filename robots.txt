@@ -1,2 +1,4 @@
-Sitemap: http://www.sathyalokcharitabletrust.org/sitemap.aspx
-
+# crawl-delay is in seconds
+User-Agent: *
+Crawl-delay: 10
+Sitemap: http://www.sathyalokcharitabletrust.org/sitemap.html
