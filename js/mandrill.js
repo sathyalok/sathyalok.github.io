@@ -6,6 +6,11 @@ function sendMail(){
   var phone = $("#phone").val();
   var serializedForm = $("#frm").serializeArray();
 
+  if ((email === '') || (name === '') || (address === '') || (phone === '')) {
+    alert("One or more required fields are missing.");
+    return true;
+  }
+
   $.ajax({
     type: "POST",
     url: "https://mandrillapp.com/api/1.0/messages/send.json",
@@ -13,6 +18,7 @@ function sendMail(){
       'key': 'HVEljfPIZEcJcJFosN2k4g',
       'message': {
         'from_email': 'sathyalok_site@do_not_reply.com',
+        'from_name': 'Sathyalok Website',
         'to': [
           {
             'email': 'changingrainbows@gmail.com',
